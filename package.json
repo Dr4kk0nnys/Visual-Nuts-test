@@ -1,0 +1,18 @@
+{
+  "name": "visual-nuts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tests provided from visual nuts regarding interview process",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest --watchAll --detectOpenHandles"
+  },
+  "author": "Dr4kk0nnys (Renato V.)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

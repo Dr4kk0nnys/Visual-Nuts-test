@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  main-service:
+    build: .
+    command: npm run start
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules
+    ports:
+      - 8080:80
+
